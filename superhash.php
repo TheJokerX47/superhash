@@ -11,7 +11,7 @@ $pass = ""; // Database user's password
 
 
 $len = 64;
-$base='ABCDEFGHKLMNOPQRSTWXYZabcdefghjkmnpqrstwxyz123456789!@#$%^&*()';
+$base='ABCDEFGHKLMNOPQRSTWXYZabcdefghjkmnpqrstwxyz0123456789!@#$%^&*()';
 $max=strlen($base)-1;
 $ranstr='';
 mt_srand((double)microtime()*1000000);
